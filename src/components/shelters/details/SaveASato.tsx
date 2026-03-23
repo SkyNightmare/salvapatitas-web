@@ -1,5 +1,4 @@
 ﻿import React, { useEffect } from 'react';
-import BackToRegion from './BackToRegion';
 import { Heart, PawPrint, Home, Users } from 'lucide-react';
 import '../details/SecondChanceRescue.css';
 
@@ -25,7 +24,6 @@ export default function SaveASato() {
   return (
     <div className="relative min-h-screen">
       <div>
-      <BackToRegion />
 
         {/* Hero Section */}
         <section id="hero" className="parallax-section">

@@ -1,5 +1,4 @@
 ﻿import React, { useEffect } from 'react';
-import BackToRegion from './BackToRegion';
 import { Heart, PawPrint } from 'lucide-react'; 
 
 export default function SecondChanceRescue() {

@@ -1,5 +1,4 @@
 ﻿import React, { useEffect } from 'react';
-import BackToRegion from './BackToRegion';
 import { Heart, PawPrint } from 'lucide-react';
 import '../details/SecondChanceRescue.css';
 import rabitoHappy1 from '../../../images/rabitoK1.jpg';
@@ -27,7 +26,6 @@ export default function RabitoKontento() {
   return (
     <div className="relative min-h-screen">
       <div>
-      <BackToRegion />
 
         {/* Hero Section */}
         <section id="hero" className="parallax-section">

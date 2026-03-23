@@ -1,5 +1,4 @@
 ﻿import React, { useEffect } from 'react';
-import BackToRegion from './BackToRegion';
 import { Heart, PawPrint } from 'lucide-react';
 import '../details/SecondChanceRescue.css';
 
@@ -28,7 +27,6 @@ export default function ElFaroDeLosAnimales() {
   return (
     <div className="relative min-h-screen">
       <div>
-      <BackToRegion />
 
         {/* Hero Section */}
         <section id="hero" className="parallax-section">
