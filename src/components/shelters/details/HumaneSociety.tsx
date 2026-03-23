@@ -3,10 +3,6 @@ import BackToRegion from './BackToRegion';
 import { Heart, PawPrint } from 'lucide-react';
 import '../details/SecondChanceRescue.css';
 
-import humane_image1 from '../../../images/humane_image1.jpg';
-import humane_image2 from '../../../images/humane_image2.jpg';
-import humane_image3 from '../../../images/humane_image3.jpg';
-
 export default function HumaneSociety() {
   useEffect(() => {
     const handleScroll = () => {
@@ -176,7 +172,7 @@ export default function HumaneSociety() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                 <div className="relative group">
                   <img
-                    src={humane_image1}
+                    src="/images/humane_image1.jpg"
                     alt="Cat"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />
@@ -186,7 +182,7 @@ export default function HumaneSociety() {
                 </div>
                 <div className="relative group">
                   <img
-                    src={humane_image2}
+                    src="/images/humane_image2.jpg"
                     alt="Dog1"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />
@@ -196,7 +192,7 @@ export default function HumaneSociety() {
                 </div>
                 <div className="relative group">
                   <img
-                    src={humane_image3}
+                    src="/images/humane_image3.jpg"
                     alt="Dog2"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />

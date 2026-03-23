@@ -3,10 +3,6 @@ import BackToRegion from './BackToRegion';
 import { Heart, PawPrint } from 'lucide-react';
 import '../details/SecondChanceRescue.css';
 
-import villaM_image1 from '../../../images/villaM_image1.jpg';
-import villaM_image2 from '../../../images/villaM_image2.jpg';
-import villaM_image3 from '../../../images/villaM_image3.jpg';
-
 export default function VillaMichelle() {
   useEffect(() => {
     const handleScroll = () => {
@@ -162,7 +158,7 @@ export default function VillaMichelle() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                 <div className="relative group">
                   <img
-                    src={villaM_image1}
+                    src="/images/villaM_image1.jpg"
                     alt="Dog1"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />
@@ -172,7 +168,7 @@ export default function VillaMichelle() {
                 </div>
                 <div className="relative group">
                   <img
-                    src={villaM_image2}
+                    src="/images/villaM_image2.jpg"
                     alt="Team"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />
@@ -182,7 +178,7 @@ export default function VillaMichelle() {
                 </div>
                 <div className="relative group">
                   <img
-                    src={villaM_image3}
+                    src="/images/villaM_image3.jpg"
                     alt="Dog2"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />

@@ -1,6 +1,5 @@
 import React from 'react';
 import { MapPin, Mail, Globe } from 'lucide-react';
-import rabitoImage from '../../images/rabitokontento.png';
 
 const northShelters = [
   {
@@ -9,7 +8,7 @@ const northShelters = [
     address:
       'COMUNIDAD ARLENE ACEVEDO, CALLE LUIS MUÑOZ MARIN, #578 BO, Hatillo, 00659',
     email: 'info@rabitokontento.org',
-    image: rabitoImage,
+    image: '/images/rabitoKontento.png',
     website: 'https://rabitokontento.org/',
     description:
       'Founded in 2012 is a non-profit organization, registered with the State Department of Puerto Rico',

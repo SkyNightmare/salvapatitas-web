@@ -1,12 +1,6 @@
 ﻿import React, { useEffect } from 'react';
 import BackToRegion from './BackToRegion';
-import { Heart, PawPrint } from 'lucide-react';
-import scarHero from '../../../images/scar_hero.webp';
-import scarAbout from '../../../images/scar_about.webp';
-
-import secondChanceImage1 from '../../../images/second_chance1.avif';
-import secondChanceImage2 from '../../../images/second_chance2.avif';
-import secondChanceImage3 from '../../../images/second_chance3.avif'; 
+import { Heart, PawPrint } from 'lucide-react'; 
 
 export default function SecondChanceRescue() {
   useEffect(() => {
@@ -35,7 +29,7 @@ export default function SecondChanceRescue() {
           <div
             className="parallax-bg"
             style={{
-              backgroundImage: `url(${scarHero})`,
+              backgroundImage: `url(/images/scar_hero.webp)`,
             }}
           >
             <div className="absolute inset-0 bg-black bg-opacity-50" />
@@ -57,7 +51,7 @@ export default function SecondChanceRescue() {
           <div
             className="parallax-bg"
             style={{
-              backgroundImage: `url(${scarAbout})`,
+              backgroundImage: `url(/images/scar_about.webp)`,
             }}
           >
             <div className="absolute inset-0 bg-black bg-opacity-60" />
@@ -179,7 +173,7 @@ export default function SecondChanceRescue() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                 <div className="relative group">
                   <img
-                    src={secondChanceImage1}
+                    src="/images/second_chance1.avif"
                     alt="Dog 1"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />
@@ -189,7 +183,7 @@ export default function SecondChanceRescue() {
                 </div>
                 <div className="relative group">
                   <img
-                    src={secondChanceImage2}
+                    src="/images/second_chance2.avif"
                     alt="Dog 2"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />
@@ -199,7 +193,7 @@ export default function SecondChanceRescue() {
                 </div>
                 <div className="relative group">
                   <img
-                    src={secondChanceImage3}
+                    src="/images/second_chance3.avif"
                     alt="Dog 3"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />

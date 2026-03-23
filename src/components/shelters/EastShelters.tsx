@@ -1,8 +1,5 @@
 import React from 'react';
 import { MapPin, Mail, Globe } from 'lucide-react';
-import saveASatoImage from '../../images/save_a_sato.png';
-import elFaroImage from '../../images/El_faro_de_los_animales.webp';
-import humaneSocietyImage from '../../images/humane.jpg';
 
 const eastShelters = [
   {
@@ -10,7 +7,7 @@ const eastShelters = [
     name: 'Save a Sato',
     address: 'P.O Box 37694, San Juan PR 00937',
     email: 'info@saveasato.org',
-    image: saveASatoImage,
+    image: '/images/save_a_sato.png',
     website: 'https://www.saveasato.org/',
     description:
       'Save A Sato is a non-profit organization dedicated to easing the suffering of Puerto Ricos homeless and abused animals. ',
@@ -20,7 +17,7 @@ const eastShelters = [
     name: 'El Faro de los Animales',
     address: 'Cam Alonzo Flecha, Humacao, 00791',
     email: 'faroinfo1@yahoo.com',
-    image: elFaroImage,
+    image: '/images/El_faro_de_los_animales.webp',
     website: 'https://www.elfaropr.org/',
     description:
       'Since 2001, El Faro is a non-profit organization providing shelter, medicine, food and love to abandoned dogs and cats in Puerto Rico. ',
@@ -30,7 +27,7 @@ const eastShelters = [
     name: 'Humane Society',
     address: 'Calle 16, Avenida B Guaynabo, PR 00969',
     email: 'info@hspr.org',
-    image: humaneSocietyImage,
+    image: '/images/humane.jpg',
     website: 'https://www.hspr.org/',
     description:
       'In Puerto Rico there is an immense need to adopt, to help homeless animals, it is the only way to eradicate euthanasia.',

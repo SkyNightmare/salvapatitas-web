@@ -3,10 +3,6 @@ import BackToRegion from './BackToRegion';
 import { Heart, PawPrint } from 'lucide-react';
 import '../details/SecondChanceRescue.css';
 
-import sanFranciscoHappy1 from '../../../images/san_francisco_image1.jpg';
-import sanFranciscoHappy2 from '../../../images/san_francisco_image2.jpg';
-import sanFranciscoHappy3 from '../../../images/san_francisco_image3.jpg';
-
 export default function SanFranciscoAsis() {
   useEffect(() => {
     const handleScroll = () => {
@@ -166,7 +162,7 @@ export default function SanFranciscoAsis() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                 <div className="relative group">
                   <img
-                    src={sanFranciscoHappy1}
+                    src="/images/san_francisco_image1.jpg"
                     alt="Team"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />
@@ -176,7 +172,7 @@ export default function SanFranciscoAsis() {
                 </div>
                 <div className="relative group">
                   <img
-                    src={sanFranciscoHappy2}
+                    src="/images/san_francisco_image2.jpg"
                     alt="SASFAPR"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />
@@ -186,7 +182,7 @@ export default function SanFranciscoAsis() {
                 </div>
                 <div className="relative group">
                   <img
-                    src={sanFranciscoHappy3}
+                    src="/images/san_francisco_image3.jpg"
                     alt="Impact Story 3"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />

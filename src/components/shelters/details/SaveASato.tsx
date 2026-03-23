@@ -2,9 +2,6 @@
 import BackToRegion from './BackToRegion';
 import { Heart, PawPrint, Home, Users } from 'lucide-react';
 import '../details/SecondChanceRescue.css';
-import saveASatoImage1 from '../../../images/SaS_image1.jpg';
-import saveASatoImage2 from '../../../images/SaS_image2.jpg';
-import saveASatoImage3 from '../../../images/SaS_image3.jpg';
 
 
 export default function SaveASato() {
@@ -182,7 +179,7 @@ export default function SaveASato() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
                 <div className="relative group">
                   <img
-                    src={saveASatoImage1}
+                    src="/images/SaS_image1.jpg"
                     alt="Mika"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />
@@ -192,7 +189,7 @@ export default function SaveASato() {
                 </div>
                 <div className="relative group">
                   <img
-                    src={saveASatoImage2}
+                    src="/images/SaS_image2.jpg"
                     alt="Olivia"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />
@@ -202,7 +199,7 @@ export default function SaveASato() {
                 </div>
                 <div className="relative group">
                   <img
-                    src={saveASatoImage3}
+                    src="/images/SaS_image3.jpg"
                     alt="Dowel"
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                   />
