@@ -1,0 +1,24 @@
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: gray;
+}
+
+.paw-icon {
+  width: 64px;
+  height: 64px;
+  color: #A7D9D7;
+  animation: bounce-rotate 2s infinite;
+}
+
+@keyframes bounce-rotate {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(180deg);
+  }
+}

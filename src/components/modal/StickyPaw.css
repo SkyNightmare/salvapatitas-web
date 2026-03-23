@@ -1,0 +1,35 @@
+.sticky-paw {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #A7D9D7;
+  color: black;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  animation: slideIn 0.5s ease-out;
+  z-index: 40;
+}
+
+.sticky-paw:hover {
+  background-color: #628a88;
+  transform: scale(1.1);
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
